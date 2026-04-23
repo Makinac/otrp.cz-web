@@ -1,0 +1,100 @@
+[2026-04-14 08:02:23] [ERROR] Database connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[2026-04-14 08:02:23] [ERROR] Unhandled exception: Database connection failed. in /var/www/web/app/Core/Database.php:46
+[2026-04-14 08:02:27] [ERROR] Database connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[2026-04-14 08:02:27] [ERROR] Unhandled exception: Database connection failed. in /var/www/web/app/Core/Database.php:46
+[2026-04-14 08:02:44] [ERROR] Database connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[2026-04-14 08:02:44] [ERROR] Unhandled exception: Database connection failed. in /var/www/web/app/Core/Database.php:46
+[2026-04-14 08:12:59] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 08:14:09] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 08:14:09] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 11:25:15] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 11:25:15] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 11:55:42] [ERROR] Interview pass failed for app #4: Too few arguments to function App\Models\AllowlistModel::passInterview(), 1 passed in /var/www/web/app/Controllers/AdminController.php on line 167 and exactly 2 expected
+[2026-04-14 12:06:41] [ERROR] Unhandled exception: Call to undefined method App\Controllers\ManagementController::getManagementPermissions() in /var/www/web/app/Controllers/ManagementController.php:61
+[2026-04-14 13:02:06] [ERROR] Team cache refresh failed: Call to undefined method App\Models\TeamCacheModel::refresh()
+[2026-04-14 13:02:06] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'ORDER BY' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 13:03:50] [ERROR] Team cache refresh failed: Call to undefined method App\Models\TeamCacheModel::refresh()
+[2026-04-14 13:03:50] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'ORDER BY' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 13:04:53] [ERROR] Team cache refresh failed: Call to undefined method App\Models\TeamCacheModel::refresh()
+[2026-04-14 13:04:53] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'ORDER BY' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 13:06:54] [ERROR] Unhandled exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.team_categories' doesn't exist in /var/www/web/app/Core/Database.php:82
+[2026-04-14 13:07:03] [ERROR] Unhandled exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.team_categories' doesn't exist in /var/www/web/app/Core/Database.php:82
+[2026-04-14 13:13:57] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 13:13:57] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 13:17:57] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 13:17:57] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 15:07:15] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 15:07:15] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 15:30:32] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 15:30:32] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 15:31:06] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-14 15:31:06] [ERROR] OAuth callback: token exchange failed.
+[2026-04-14 18:06:44] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.user_id' in 'WHERE' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 18:06:48] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.user_id' in 'WHERE' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 18:06:52] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.user_id' in 'WHERE' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 18:07:59] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.user_id' in 'WHERE' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 18:09:16] [ERROR] Unhandled exception: Call to undefined method App\Models\BlacklistModel::findByUserId() in /var/www/web/app/Controllers/AppealController.php:31
+[2026-04-14 18:09:26] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.user_id' in 'WHERE' in /var/www/web/app/Core/Database.php:82
+[2026-04-14 18:21:15] [ERROR] Unhandled exception: Call to undefined method App\Models\NewsModel::countByType() in /var/www/web/app/Controllers/HomeController.php:82
+[2026-04-14 18:21:18] [ERROR] Unhandled exception: Call to undefined method App\Models\NewsModel::countByType() in /var/www/web/app/Controllers/HomeController.php:40
+[2026-04-14 18:28:41] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/management/content_list.php:55
+[2026-04-14 18:28:58] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/management/content_list.php:55
+[2026-04-14 19:36:15] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-14 20:19:48] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::pdo() in /var/www/web/app/Models/CkVoteModel.php:35
+[2026-04-14 20:20:49] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::pdo() in /var/www/web/app/Models/CkVoteModel.php:35
+[2026-04-14 20:26:37] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::pdo() in /var/www/web/app/Models/CkVoteModel.php:35
+[2026-04-14 20:26:40] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::pdo() in /var/www/web/app/Models/CkVoteModel.php:35
+[2026-04-14 20:54:06] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/admin/index.php:63
+[2026-04-14 20:54:41] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/admin/index.php:63
+[2026-04-14 20:54:53] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/admin/index.php:63
+[2026-04-14 20:54:53] [ERROR] Unhandled exception: syntax error, unexpected token "endforeach", expecting end of file in /var/www/web/app/Views/admin/index.php:63
+[2026-04-14 20:59:16] [ERROR] Unhandled exception: syntax error, unexpected token "endif", expecting end of file in /var/www/web/app/Views/admin/player_detail.php:63
+[2026-04-14 21:26:37] [ERROR] Unhandled exception: syntax error, unexpected token "endif", expecting end of file in /var/www/web/app/Views/admin/player_detail.php:69
+[2026-04-15 05:23:56] [ERROR] Unhandled exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.security_logs' doesn't exist in /var/www/web/app/Core/Database.php:82
+[2026-04-15 08:09:21] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 08:15:43] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 11:33:19] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::prepare() in /var/www/web/app/Models/QpBonusModel.php:39
+[2026-04-15 11:34:23] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::prepare() in /var/www/web/app/Models/QpBonusModel.php:39
+[2026-04-15 11:34:24] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::prepare() in /var/www/web/app/Models/QpBonusModel.php:39
+[2026-04-15 11:42:33] [ERROR] Unhandled exception: Call to undefined method App\Core\Database::prepare() in /var/www/web/app/Models/QpBonusModel.php:39
+[2026-04-15 12:40:12] [INFO] Discord cache nuke by user 1: 0 sessions deleted.
+[2026-04-15 12:47:03] [ERROR] Unhandled exception: Call to undefined method App\Controllers\BenefitsController::requirePost() in /var/www/web/app/Controllers/BenefitsController.php:54
+[2026-04-15 14:07:14] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 15:59:50] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 16:02:16] [WARNING] API auth failed: Invalid API key | IP: 178.104.179.242 | Key: test-inv***
+[2026-04-15 16:09:16] [WARNING] API auth failed: Invalid API key | IP: 178.104.179.242 | Key: invalid-*** | Headers: Host: otrp.cz; Accept-Encoding: gzip, br; X-Forwarded-For: 178.104.179.242; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 178.104.179.242; Cdn-Loop: cloudflare; loops=1; Accept: */*; X-Api-Key: invalid-test***; User-Agent: curl/8.14.1; Cf-Ray: 9ecc36b62eb4373a-FRA; Connection: Keep-Alive; Content-Length: ; Content-Type: 
+[2026-04-15 16:14:35] [WARNING] API auth failed: IP not allowed | IP: 2a01:4f8:c012:48c2::1 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ecc3e7fafe7cef6-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-15 16:15:13] [WARNING] API auth failed: IP not allowed | IP: 2a01:4f8:c012:48c2::1 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ecc3f6d4a8ccef6-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-15 16:15:16] [WARNING] API auth failed: IP not allowed | IP: 2a01:4f8:c012:48c2::1 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ecc3f81fcc4cef6-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-15 16:44:24] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 16:48:57] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 18:16:31] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-15 20:01:59] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-16 13:52:28] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-16 17:02:46] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-17 17:59:57] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-18 12:20:00] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-18 13:25:51] [WARNING] API auth failed: Invalid API key | IP: 172.71.144.30 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ee3ff76cfc2dba3-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-18 13:26:14] [WARNING] API auth failed: Invalid API key | IP: 172.71.144.30 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ee400033bc8dba3-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-18 13:26:39] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-18 13:28:24] [WARNING] API auth failed: Invalid API key | IP: 172.70.248.73 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ee403319bad37bd-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-18 13:30:51] [ERROR] Unhandled exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'api_key_prefix' in 'SET' in /var/www/web/app/Core/Database.php:82
+[2026-04-18 13:32:07] [WARNING] API auth failed: IP not allowed | IP: 172.70.243.191 | Key: 6342e6d7*** | Headers: Connection: Keep-Alive; Content-Length: 233; Accept-Encoding: gzip, br; X-Forwarded-Proto: https; Cf-Visitor: {"scheme":"https"}; Cf-Ipcountry: DE; Cf-Connecting-Ip: 2a01:4f8:c012:48c2::1; Cdn-Loop: cloudflare; loops=1; Accept: */*; Cf-Ray: 9ee408a41f701c01-FRA; Content-Type: application/json; X-Api-Key: 6342e6d7e37b***; User-Agent: FXServer/PerformHttpRequest; Host: otrp.cz; X-Forwarded-For: 2a01:4f8:c012:48c2::1
+[2026-04-19 08:59:37] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-19 10:02:59] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-19 10:02:59] [ERROR] OAuth callback: token exchange failed.
+[2026-04-19 10:03:18] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-19 10:03:18] [ERROR] OAuth callback: token exchange failed.
+[2026-04-19 16:35:12] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-19 19:47:25] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-20 06:47:50] [ERROR] addNote for user #1: Call to undefined method App\Core\Database::lastInsertId()
+[2026-04-20 07:35:29] [ERROR] Unhandled exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.config' doesn't exist in /var/www/web/app/Core/Database.php:82
+[2026-04-20 07:37:06] [ERROR] Unhandled exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.config' doesn't exist in /var/www/web/app/Core/Database.php:82
+[2026-04-20 07:58:34] [ERROR] Unhandled exception: syntax error, unexpected identifier "již", expecting ")" in /var/www/web/app/Controllers/ManagementController.php:1485
+[2026-04-20 07:59:16] [ERROR] Unhandled exception: syntax error, unexpected identifier "již", expecting ")" in /var/www/web/app/Controllers/ManagementController.php:1508
+[2026-04-20 07:59:23] [ERROR] Unhandled exception: syntax error, unexpected identifier "již", expecting ")" in /var/www/web/app/Controllers/ManagementController.php:1508
+[2026-04-20 10:33:52] [ERROR] Unhandled exception: Call to undefined method App\Core\Session::token() in /var/www/web/app/Views/management/discord.php:782
+[2026-04-20 10:33:55] [ERROR] Unhandled exception: Call to undefined method App\Core\Session::token() in /var/www/web/app/Views/management/discord.php:782
+[2026-04-20 10:34:02] [ERROR] Unhandled exception: Call to undefined method App\Core\Session::token() in /var/www/web/app/Views/management/discord.php:782
+[2026-04-21 17:35:23] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-21 21:03:41] [WARNING] OAuth callback: invalid state or missing code.
