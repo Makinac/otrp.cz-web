@@ -184,6 +184,32 @@
                             </select>
                             <small style="color:var(--grey-dim);font-size:0.78rem;">Role přidělená zamuteným uživatelům. Musí mít zakázán Send Messages ve všech kanálech kromě ticketů.</small>
                         </div>
+                        <div class="form-group">
+                            <label class="form-label" for="voice_log_channel">🎙️ Voice log kanál</label>
+                            <select id="voice_log_channel" name="voice_log_channel" class="form-control">
+                                <option value="">— žádný —</option>
+                                <?php foreach ($discordChannels as $dc): ?>
+                                    <option value="<?= htmlspecialchars($dc['id']) ?>"
+                                        <?= ($botConfig['voice_log_channel'] ?? '') === $dc['id'] ? ' selected' : '' ?>>
+                                        #<?= htmlspecialchars($dc['name']) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                            <small style="color:var(--grey-dim);font-size:0.78rem;">Kanál pro záznamy připojení, odpojení a přesunů ve voice kanálech.</small>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message_log_channel">✏️ Message log kanál</label>
+                            <select id="message_log_channel" name="message_log_channel" class="form-control">
+                                <option value="">— žádný —</option>
+                                <?php foreach ($discordChannels as $dc): ?>
+                                    <option value="<?= htmlspecialchars($dc['id']) ?>"
+                                        <?= ($botConfig['message_log_channel'] ?? '') === $dc['id'] ? ' selected' : '' ?>>
+                                        #<?= htmlspecialchars($dc['name']) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                            <small style="color:var(--grey-dim);font-size:0.78rem;">Kanál pro záznamy smazaných a upravených zpráv.</small>
+                        </div>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Uložit obecná nastavení</button>

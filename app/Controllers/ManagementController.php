@@ -1276,6 +1276,8 @@ class ManagementController extends BaseController
             'clen_role_id',
             'mod_log_channel',
             'mute_role_id',
+            'voice_log_channel',
+            'message_log_channel',
             // Ticket systém
             'ticket_log_channel',
             'transcript_channel',
@@ -1517,6 +1519,8 @@ class ManagementController extends BaseController
                 'clen_role_id',
                 'mod_log_channel',
                 'mute_role_id',
+                'voice_log_channel',
+                'message_log_channel',
             ],
             'tickets' => [
                 'ticket_log_channel',

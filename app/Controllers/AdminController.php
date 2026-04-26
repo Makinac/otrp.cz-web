@@ -208,7 +208,7 @@ class AdminController extends BaseController
         $cheatsheetModel = new CheatsheetModel();
         $allQuestions = $cheatsheetModel->getAll();
         $totalQuestions = count($allQuestions);
-        $randomCount = min(12, $totalQuestions);
+        $randomCount = min(20, $totalQuestions);
         $cheatsheetQuestions = $cheatsheetModel->getRandom($randomCount);
 
         $this->render('admin/detail', [

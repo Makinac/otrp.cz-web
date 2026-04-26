@@ -98,3 +98,7 @@
 [2026-04-20 10:34:02] [ERROR] Unhandled exception: Call to undefined method App\Core\Session::token() in /var/www/web/app/Views/management/discord.php:782
 [2026-04-21 17:35:23] [WARNING] OAuth callback: invalid state or missing code.
 [2026-04-21 21:03:41] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-23 18:55:26] [ERROR] Discord OAuth token exchange failed: {"error":"invalid_grant","error_description":"Invalid \"code\" in request."}
+[2026-04-23 18:55:26] [ERROR] OAuth callback: token exchange failed.
+[2026-04-24 18:51:07] [WARNING] OAuth callback: invalid state or missing code.
+[2026-04-26 07:08:54] [WARNING] OAuth callback: invalid state or missing code.
